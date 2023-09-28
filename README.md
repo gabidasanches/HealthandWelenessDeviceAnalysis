@@ -19,4 +19,28 @@ Personalized health recommendations; Mental Health Monitoring; Menstrual cycle t
 Since the focus of Bellabeat is women as its customers, they could benefit from all of those trends to track their health, monitor their internal system (menstrual cycle tracking), and monito external factors that might affect their health.
 3.	How could these trends help influence Bellabeat marketing strategy? 
 These trends could have a positive impact in the marketing strategy, if Bellabeat uses those trends to achieve women that wants to get healthier, and monitor their symptoms, marketing strategy could achieve this goal by advertising the trends involved in the smart device. 
-![image](https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/ab479d74-3158-4655-946c-2fca1ce8c6f5)
+
+Summary of Business Task
+	Analyze data from the FitBit device, and compare with the Bellabeat product. Get insights that will help guide the following steps the company needs to take for its marketing strategy and see how those trends influence and apply to Bellabeat customers.
+
+Data Sources
+	Data from FitBit device collected from Kaggle; Files used for analyze: SleepDay, DailyActicity, DailySteps, HeartRate. 
+
+Cleaning data
+
+-	On excel: 
+o	transformed the ‘SleepDay’ column or the ‘sleep_day_merged’ file to date only (instead of data and time in the same column).
+o	Used LEN function to ensure all IDs are 10 characters length.
+
+-	On Rstudio: separated the date that wasn’t included in the “Time” column in the ‘hearrate_seconds’ file into a new column called Date, excluded the column time, that would not be necessary for the analysis.
+o	Used R instead of Excel because the file was too large to be able to clean it and modify on excel.
+<img width="347" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/41b3d7c2-210b-43ae-b963-5cea826b9768">
+
+-	Using SQL in bigquery to check the number of unique members that were being analyzed in each of the files: SleepDay, DailyActicity, DailySteps, HeartRate
+
+o	Updated the Daily Steps file into bigquery
+o	Check the number of members that were being analyzed for Daily Activity
+<img width="351" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/126c9cac-cfdc-426c-9dae-4bf822de4395">
+
+
+
