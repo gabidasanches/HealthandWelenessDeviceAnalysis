@@ -21,8 +21,6 @@ These trends could have a positive impact in the marketing strategy, if Bellabea
 
 
 
-
-
 Summary of Business Task
 	Analyze data from the FitBit device, and compare with the Bellabeat product. Get insights that will help guide the following steps the company needs to take for its marketing strategy and see how those trends influence and apply to Bellabeat customers.
 
@@ -38,56 +36,54 @@ o	Used LEN function to ensure all IDs are 10 characters length.
 -	On Rstudio: separated the date that wasn’t included in the “Time” column in the ‘hearrate_seconds’ file into a new column called Date, excluded the column time, that would not be necessary for the analysis.
 o	Used R instead of Excel because the file was too large to be able to clean it and modify on excel.
 
+<img width="347" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/c16e7109-1fde-441b-ad9a-189dcfecfe70">
+
  
 
 -	Using SQL in bigquery to check the number of unique members that were being analyzed in each of the files: SleepDay, DailyActicity, DailySteps, HeartRate
 
 o	Updated the Daily Steps file into bigquery
 o	Check the number of members that were being analyzed for Daily Activity
- 
+
+ <img width="351" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/95a57911-001f-4d06-9712-83571a897080">
+
 
 o	Check the number of members that were being analyzed for Daily Steps
 
- 
+ <img width="353" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/1e6991ef-2a6e-4ce6-a2ed-0ffecfcaf3f3">
+
 
 o	Check the number of members that were being analyzed for Sleep Day
- 
+
+ <img width="358" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/da6e2cb8-4b6c-42f4-ae12-2e6e9c08d69a">
+
 
 o	Check the number of member that were being analyzed for Heart Rate
+
+<img width="380" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/8bcc3a66-72e1-4f05-bcc7-009e1f62ea67">
+
  
 -	Checked if there are NULL data using the “IS NULL” function:
 
 o	Daily Activity: No null values
 
- 
+ <img width="265" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/94ea5790-9880-406c-9cef-adca382be83e">
+
 
 
 o	Daily steps: No null values
 
- 
-
-
-
+<img width="261" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/e742b1b9-9bce-48f3-974f-3f91ae730dca">
 
 
 o	Sleep Day: No null values
 
- 
+ <img width="230" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/e492a128-842b-4804-af68-f6126907ce74">
 
 
 o	Heart Rate: No null values
 
- 
-
-
-
-
-
-
-
-
-
-
+ <img width="282" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/746070ad-a0b1-45c5-aec9-347e340af0b0">
 
 
 
@@ -99,11 +95,10 @@ o	Daily Activity:
 •	number of users by day of the week:
 
 R code:
- 
 
+<img width="429" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/5cf34e02-4521-47c2-a1a7-641118dda3c9">
 
-
- 
+ <img width="392" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/6e34c79e-2e27-4c12-ae19-3e9c0693180d">
 
 
 This chart shows that  most of the users, averaging 149 users, are using their Fitbit to track their daily activity from Tuesday to Thursday. Monday and Sunday are the days that the least number of users are using their Fitbit to track daily activities.
@@ -113,12 +108,12 @@ This chart shows that  most of the users, averaging 149 users, are using their F
 
 R Code:
 
- 
+ <img width="338" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/56e783ac-63ba-4084-8db7-05a2ae5355da">
 
+<img width="447" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/f610acbe-6b9e-4127-b8bf-4dedcc398c24">
 
- 
+<img width="458" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/f0be6dfd-f6b2-4894-9c91-085914993d1c">
 
- 
 
 This pie charts shows that the majority of users (81%) are sedentary; only 2% are very active and 1% are fairly active.
 
@@ -129,24 +124,26 @@ o	Daily Steps:
 
 R Code:
 
- 
+<img width="328" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/b7fc364a-1a1f-4952-94f9-8109a682c2f8">
 
 
 Result:
 
- 
+<img width="127" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/d9b8ab48-c090-4efe-9d3c-d7056b378e13">
+
+
 
 •	Correlation between Daily Steps and Activity Level:
 
 
 SQL Query:
 
- 
+ <img width="281" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/5f4bd598-de97-4727-8c34-76183d595ea9">
 
 
 Result:
 
- 
+ <img width="225" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/0458c70a-318f-4f94-8ee5-c0ed836611a9">
 
 
 The users that had a lower average of steps daily, had higher sum of sedentary levels than the users that took more steps a day.
@@ -157,20 +154,22 @@ o	Heart Rate:
 
 R Code:
 
- 
+<img width="291" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/12ddc78f-0375-4a87-92f9-fdcadc60f417">
 
-		Result:
+
+Result:
+
+<img width="134" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/d42c4d05-866a-4220-8c70-4bffb7bb398f">
 
 		 
-
 Visualize the heart rate by user Id (transformed used Id of 10 digits into simple 1,2,… for better visualization and keeping data anonymous)
 
 
- 
+ <img width="335" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/b30f0e76-ee96-4539-a622-7c18c556e9ee">
 
 
+<img width="321" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/321f8a67-0ccf-48bc-9330-9979fd7936f9">
 
- 
 
 
 Heart Rate is an important metric to keep track of. It can teel the customers a lot about their overall health, important for the Bellabeat customers.
@@ -182,22 +181,24 @@ o	Sleep Day:
 
 R code:
 
- 
+ <img width="285" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/71623606-f567-4539-8cce-35bf594ec51c">
+
 
 Results:
 
- 
+ <img width="116" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/23564689-f1ba-48a1-947e-90eb84ed368d">
 
 
 •	Burned calories vs. Sleep Time
 
 SQL Query:
 
- 
+ <img width="408" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/95385543-eb02-4d2f-9f36-1382c76d8622">
 
 
 Result:
  
+<img width="85" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/04c86ac4-9682-4aed-a6ca-1ae38416fb17">
 
 
 On excel:
@@ -207,7 +208,8 @@ On excel:
 3.	Created a graph with that information.
 
 
- 
+ <img width="401" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/a277e2ed-92e6-459d-ae4e-34d75aff4ffc">
+
 
 The least Average amount of calories burnt is on Monday, which corresponds to the day that the Sleep Time was the lowest; Tuesday, Wednesday and Thursday were the days that the most calories were burnt, and the days that the users had the highest average sleep time.
 
