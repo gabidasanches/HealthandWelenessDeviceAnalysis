@@ -54,14 +54,72 @@ o	Check the number of member that were being analyzed for Heart Rate]
 
 
 -	Checked if there are NULL data using the “IS NULL” function:
-  
+
+
 o	Daily Activity: No null values
 
 <img width="205" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/8ea4b0f8-ef84-41cf-8044-e075b030a690">
 
+
 o	Daily steps: No null values
 
 <img width="226" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/38a7cd58-82a2-4b41-9179-cbfa840a5000">
+
+
+o	Sleep Day: No null values
+<img width="230" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/fe19a7db-b3b8-4f5a-b55b-5ef2b86826b0">
+
+
+o	Heart Rate: No null values
+<img width="282" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/aa360403-99e5-4e90-a5b7-a7647045e959">
+
+
+
+
+Analysis and Visualization
+
+
+o	Daily Activity: 
+	number of users by day of the week:
+	R Code:
+ <img width="429" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/431a5a0f-7a2f-4909-9d94-13e84e8e7d81">
+ <img width="392" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/8e971345-2fcf-4888-95d3-12bc6d802fb4">
+
+This chart shows that  most of the users, averaging 149 users, are using their Fitbit to track their daily activity from Tuesday to Thursday. Monday and Sunday are the days that the least number of users are using their Fitbit to track daily activities.
+
+ 	Activity levels:
+	R Code:
+<img width="338" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/d8311e36-dbfb-46bc-b9ae-3f526667fae8">
+
+<img width="420" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/23ac1f73-71f1-4ded-a0e2-f36ac8514256">
+
+<img width="445" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/c7e080d1-9edf-440f-8706-cab51b07af7d">
+
+This pie charts shows that the majority of users (81%) are sedentary; only 2% are very active and 1% are fairly active.
+
+
+o	Daily Steps:
+	Average of Daily steps by ID
+	R Code:
+<img width="328" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/8ceac7e6-f440-4326-bd54-e9da2e236747">
+
+ 	Result:
+  <img width="127" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/43ca5498-1cc9-4e78-871c-03c7f6802bea">
+  
+
+	Correlation between Daily Steps and Activity Level:
+	SQL Query:
+ <img width="281" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/e7f65ec0-7f5c-489a-8a0c-85d6aa6d0dec">
+
+ 	Result:
+  <img width="225" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/ca72add3-b33f-4ffa-9d3b-a3241de959a4">
+ The users that had a lower average of steps daily, had higher sum of sedentary levels than the users that took more steps a day.
+
+
+
+
+
+
 
 
 
