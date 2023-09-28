@@ -219,14 +219,21 @@ The least Average amount of calories burnt is on Monday, which corresponds to th
 Act/Share
 
 The Bellabeat Product that we could apply the following insights from the presentation is the Bellabeat App. This app provides users with health-related data, and we can improve this data by offering special promotions, better analysis, deeper analysis, user-friendly app, and better device that is connected to this app.
+
 •	Bellabeat can offer a special promotion to its users in which they are encouraged to use the device on the other days of the week, giving Bellabeat an advantage over its rival. The majority of FitBit subscribers use their gadget between Tuesdays and Thursdays.
+
 •	Activity Levels -> Bellabeat device should focus on giving weekly data of activity level for its clients, FitBit data analysis shows that 83% of its users are in the sedentary activity level for most days, which is not optimal for health. Seeing that Bellabeat wants to focus on health and wellness of its customers, we should give a weekly analysis of their activity level and include tips on how to improve their activity level.
-o	If we want to focus on women health and cycle tracking, activity level is also a very important factor to keep track of.
+
+	o	If we want to focus on women health and cycle tracking, activity level is also a very important factor to keep track of.
+ 
 •	Tracking of Daily Steps -> the competitor tracks its user daily step, which contributes as well to activity levels. For a more personalized experience, Bellabeat could add a personalized step goal that its customers could set, according to personal goals.
+
 •	Tracking heart rate is important for many aspects of health and wellness, such as: cardiovascular health, exercise and fitness, stress management, sleep quality, recovery monitor, and more. This is a very important feature that Bellabeat should keep in mind for its customers.
+
 •	Sleep Data on this competitor is not in the best format and easy to read; Bellabeat could use that as an advantage, we could:
-o	Track the sleep in hours, easy for customers to analyze;
-o	Track each phase of sleep for deeper analyze;
-o	Track the average sleep each week to see progress.
-o	Shows customer, the relation between quality of sleep, time of sleep, and calories burnt.
+
+	o	Track the sleep in hours, easy for customers to analyze;
+	o	Track each phase of sleep for deeper analyze;
+	o	Track the average sleep each week to see progress.
+	o	Shows customer, the relation between quality of sleep, time of sleep, and calories burnt.
 
