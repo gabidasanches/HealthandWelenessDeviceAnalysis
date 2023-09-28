@@ -40,7 +40,33 @@ o	Used R instead of Excel because the file was too large to be able to clean it 
 
 o	Updated the Daily Steps file into bigquery
 o	Check the number of members that were being analyzed for Daily Activity
+
 <img width="351" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/126c9cac-cfdc-426c-9dae-4bf822de4395">
+
+o	Check the number of members that were being analyzed for Daily Steps
+<img width="353" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/b13b3e01-86ca-49c7-9f39-bcbf6e220a07">
+
+o	Check the number of members that were being analyzed for Sleep Day
+<img width="358" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/a6c1daf3-ab3a-4aa2-81a2-4c4924e9739f">
+
+o	Check the number of member that were being analyzed for Heart Rate]
+<img width="380" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/cfab72b6-32f1-4fd3-829d-293d3b8f0e53">
+
+
+-	Checked if there are NULL data using the “IS NULL” function:
+o	Daily Activity: No null values
+<img width="205" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/8ea4b0f8-ef84-41cf-8044-e075b030a690">
+o	Daily steps: No null values
+<img width="226" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/38a7cd58-82a2-4b41-9179-cbfa840a5000">
+
+
+
+
+
+
+
+
+
 
 
 
