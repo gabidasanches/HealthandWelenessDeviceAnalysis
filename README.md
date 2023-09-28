@@ -54,9 +54,13 @@ o	Check the number of member that were being analyzed for Heart Rate]
 
 
 -	Checked if there are NULL data using the “IS NULL” function:
+  
 o	Daily Activity: No null values
+
 <img width="205" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/8ea4b0f8-ef84-41cf-8044-e075b030a690">
+
 o	Daily steps: No null values
+
 <img width="226" alt="image" src="https://github.com/gabidasanches/HealthandWelenessDeviceAnalysis/assets/123784158/38a7cd58-82a2-4b41-9179-cbfa840a5000">
 
 
