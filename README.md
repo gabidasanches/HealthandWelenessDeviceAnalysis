@@ -1,4 +1,5 @@
-Google Data Analytics Capstone Project
+# Health and Weleness Device Analysis
+## Google Data Analytics Capstone Project
 
 Introduction of the project:
 Sršen (company co-founder) asks you to analyze smart device usage data in order to gain insight into how consumers use non-Bellabeat smart devices. She then wants you to select one Bellabeat product to apply these insights to.
